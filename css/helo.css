@@ -1,0 +1,69 @@
+:root {
+    --color-linked-in:#1564cb;
+    --color-instagram:#e1555a;
+    --color-mail: #F26543;
+    --color-phone:#34a853;
+}
+
+body{
+    background-color: #232323 !important;
+    color:azure !important;
+}
+
+#mainNav {
+    background-color: #232323 !important;}
+
+.svg-inline--fa {
+    color: #fff;}
+
+.color-white {
+    color: #fff !important;}
+
+.helo {
+    background-color: #fff;
+}
+
+.helo-card {
+    padding: 40px 80px;
+    color: #232323;
+    background-color: #fafafa;
+    width: 800px;
+    border-radius: 15px;
+    font-family: 'PT Sans' , sans-serif;
+}
+
+.helo-card-head {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.helo-row {
+    align-items: center;
+}
+
+ul.helo-card-list {
+    list-style: none;
+}
+
+li.hcl-item {
+    font-size: 20px;
+    gap: 50px;
+    display: flex;
+}
+
+.fa-linkedin{
+    color:var(--color-linked-in);
+}
+
+.fa-instagram{
+    color:var(--color-instagram);
+}
+
+.fa-envelope{
+    color:var(--color-mail);
+}
+
+.fa-phone{
+    color:var(--color-phone);
+}
